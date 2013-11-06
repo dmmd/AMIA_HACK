@@ -15,9 +15,11 @@ def is_recognized(xml):
     else:
         return False
 
-
 def main(data):
+    print 'mediainfo_filename: {}'.format(data)
+
     xml = subprocess.check_output(['mediainfo', '-f', '--Output=XML', data])
+    print 'mediainfo_xml: {}'.format(xml.replace('\n', ''))
     xml = etree.fromstring(xml)
 
     if not is_recognized(xml):
