@@ -1,0 +1,2359 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml version='1.0'>
+  <metadata 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML'
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Disk Image</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>fiwalk</program>
+    <version>4.1.0</version>
+    <build_environment>
+      <compiler>GCC 4.2</compiler>
+      <library name="afflib" version="3.7.1"/>
+      <library name="libewf" version="20130416"/>
+    </build_environment>
+    <execution_environment>
+      <command_line>fiwalk -xc ficonfig2.txt /Users/dm/Desktop/amia/amia.E01</command_line>
+      <start_time>2013-11-06T21:31:08Z</start_time>
+    </execution_environment>
+  </creator>
+<!-- Reading configuration file ficonfig2.txt -->
+<!-- pattern: *  method: dgi  path: python mediainfo.py -->
+  <source>
+    <image_filename>/Users/dm/Desktop/amia/amia.E01</image_filename>
+  </source>
+<!-- fs start: 512 -->
+  <volume offset='512'>
+    <partition_offset>512</partition_offset>
+    <sector_size>512</sector_size>
+    <block_size>4096</block_size>
+    <ftype>8</ftype>
+    <ftype_str>fat32</ftype_str>
+    <block_count>4000062</block_count>
+    <first_block>0</first_block>
+    <last_block>4000061</last_block>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>AMIA        (Volume Label Entry)</filename>
+      <partition>1</partition>
+      <id>1</id>
+      <name_type>r</name_type>
+      <filesize>0</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>3</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T12:39:14</mtime>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>._.Trashes</filename>
+      <partition>1</partition>
+      <id>2</id>
+      <name_type>r</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>5</inode>
+      <meta_type>1</meta_type>
+      <mode>365</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:03:34</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:03:34</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='4017152' img_offset='4017664' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>5ecad39c470178e1b0ef93e534b60fda</hashdigest>
+      <hashdigest type='sha1'>36dfed64b95c28cf63cce63da3d153cba020a88b</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>false</mediainfo_recognized>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>mp3</filename>
+      <partition>1</partition>
+      <id>3</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>6</inode>
+      <meta_type>2</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:05:26</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:05:27</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='4029440' img_offset='4029952' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>2e377551d47ab46a27100e1e7180addf</hashdigest>
+      <hashdigest type='sha1'>5ad800a7b13dbd09bac565da1de15ca9e91c4583</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/.</filename>
+      <partition>1</partition>
+      <id>4</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>6</inode>
+      <meta_type>2</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:05:26</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:05:27</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='4029440' img_offset='4029952' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>2e377551d47ab46a27100e1e7180addf</hashdigest>
+      <hashdigest type='sha1'>5ad800a7b13dbd09bac565da1de15ca9e91c4583</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/..</filename>
+      <partition>1</partition>
+      <id>5</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2</inode>
+      <meta_type>2</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='4008960' img_offset='4009472' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>0df69c508ec6af2d0977bd7a5722cd4a</hashdigest>
+      <hashdigest type='sha1'>b97d4749c173543844fea533fac31997df95cde0</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/240-McKennaGadfly01.mp3</filename>
+      <partition>1</partition>
+      <id>6</id>
+      <name_type>r</name_type>
+      <filesize>40406926</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>647</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:05:50</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:05:49</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='4033536' img_offset='4034048' len='40406926'/>
+      </byte_runs>
+      <hashdigest type='md5'>d36b3fd986f8d09b1151100948878d1f</hashdigest>
+      <hashdigest type='sha1'>c7defcd030c4abc7251ac6644e0e42d78b68f564</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>1</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_duration>5047379</mediainfo_general_duration>
+      <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/._240-McKennaGadfly01.mp3</filename>
+      <partition>1</partition>
+      <id>7</id>
+      <name_type>r</name_type>
+      <filesize>4096</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>650</inode>
+      <meta_type>1</meta_type>
+      <mode>365</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:05:50</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:05:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='44440576' img_offset='44441088' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>0a6f8427c14bd9d0d0020f4a670f9771</hashdigest>
+      <hashdigest type='sha1'>80445d2a1042eb80891ce517c804afbb934bfe88</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>false</mediainfo_recognized>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/241-McKennaGadfly02.mp3</filename>
+      <partition>1</partition>
+      <id>8</id>
+      <name_type>r</name_type>
+      <filesize>27749032</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>653</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:05:52</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:05:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='44444672' img_offset='44445184' len='27749032'/>
+      </byte_runs>
+      <hashdigest type='md5'>7606bf9702885dd99bf250f61f9d4f1e</hashdigest>
+      <hashdigest type='sha1'>9bee73630ee3987a38188cc5fbac735cf8da71c6</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>1</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_duration>3465142</mediainfo_general_duration>
+      <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/._241-McKennaGadfly02.mp3</filename>
+      <partition>1</partition>
+      <id>9</id>
+      <name_type>r</name_type>
+      <filesize>4096</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>656</inode>
+      <meta_type>1</meta_type>
+      <mode>365</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:05:52</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:05:52</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='72195072' img_offset='72195584' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>6274a8c19b85426bab26f1c653a9a479</hashdigest>
+      <hashdigest type='sha1'>604e1900d98e177add7d50ab92c7a515d6d5fb9f</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>false</mediainfo_recognized>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/242-McKennaGadfly03.mp3</filename>
+      <partition>1</partition>
+      <id>10</id>
+      <name_type>r</name_type>
+      <filesize>24359174</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>659</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:05:54</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:05:52</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='72199168' img_offset='72199680' len='24359174'/>
+      </byte_runs>
+      <hashdigest type='md5'>05963d81b2571c6ddfd88c6bf80a3ec5</hashdigest>
+      <hashdigest type='sha1'>5e826ef78bde8accdbf096e7f4098e7cf3e8f9cb</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>1</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_duration>3041410</mediainfo_general_duration>
+      <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/._242-McKennaGadfly03.mp3</filename>
+      <partition>1</partition>
+      <id>11</id>
+      <name_type>r</name_type>
+      <filesize>4096</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>662</inode>
+      <meta_type>1</meta_type>
+      <mode>365</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:05:54</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:05:54</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='96562176' img_offset='96562688' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>59a951c89621e9e33facc3ac9ed8180b</hashdigest>
+      <hashdigest type='sha1'>1d8b202b2339c6572404ba76e060266f068dfc5f</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>false</mediainfo_recognized>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/243-HofmannEvent1988.mp3</filename>
+      <partition>1</partition>
+      <id>12</id>
+      <name_type>r</name_type>
+      <filesize>26470776</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>665</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:05:54</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:05:54</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='96566272' img_offset='96566784' len='26470776'/>
+      </byte_runs>
+      <hashdigest type='md5'>4c04614344443ed9af008e75e47f432e</hashdigest>
+      <hashdigest type='sha1'>86434808db9fe89a52fb7a8a1ae237fa8b0120e4</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>1</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_duration>3305351</mediainfo_general_duration>
+      <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/._243-HofmannEvent1988.mp3</filename>
+      <partition>1</partition>
+      <id>13</id>
+      <name_type>r</name_type>
+      <filesize>4096</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>668</inode>
+      <meta_type>1</meta_type>
+      <mode>365</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:05:54</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:05:55</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='123038720' img_offset='123039232' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>da34c70bb5f01502a77b93170e9e3b7f</hashdigest>
+      <hashdigest type='sha1'>c482b0edd7529be6766520735a24257d51d7b737</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>false</mediainfo_recognized>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/244-LearySB1985.mp3</filename>
+      <partition>1</partition>
+      <id>14</id>
+      <name_type>r</name_type>
+      <filesize>34927943</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>671</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:05:56</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:05:55</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='123042816' img_offset='123043328' len='34927943'/>
+      </byte_runs>
+      <hashdigest type='md5'>e9b7e00c313e00aac2c87b583e3e910f</hashdigest>
+      <hashdigest type='sha1'>89b1dbad71c11c0815c840d259e9e6666831f06b</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>1</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_duration>4365948</mediainfo_general_duration>
+      <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/._244-LearySB1985.mp3</filename>
+      <partition>1</partition>
+      <id>15</id>
+      <name_type>r</name_type>
+      <filesize>4096</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>674</inode>
+      <meta_type>1</meta_type>
+      <mode>365</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:05:56</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:05:57</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='157973504' img_offset='157974016' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>9589b6b5759009a261c562b4cdae3b2b</hashdigest>
+      <hashdigest type='sha1'>769020de8e180e70ad27df641af089b283fa40a9</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>false</mediainfo_recognized>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/245-McKennaAngelsArch.mp3</filename>
+      <partition>1</partition>
+      <id>16</id>
+      <name_type>r</name_type>
+      <filesize>28442701</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>677</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:05:58</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:05:57</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='157977600' img_offset='157978112' len='28442701'/>
+      </byte_runs>
+      <hashdigest type='md5'>884399dcc6cc91afb04796d9535fbf30</hashdigest>
+      <hashdigest type='sha1'>052cd03e51c1528568dde4553510e382cca0a132</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>1</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_duration>3553017</mediainfo_general_duration>
+      <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/._245-McKennaAngelsArch.mp3</filename>
+      <partition>1</partition>
+      <id>17</id>
+      <name_type>r</name_type>
+      <filesize>4096</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>681</inode>
+      <meta_type>1</meta_type>
+      <mode>365</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:05:58</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:05:59</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='186424320' img_offset='186424832' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>c68cfafd469cedab1d36b62db4a022b5</hashdigest>
+      <hashdigest type='sha1'>e91af91231e4c0bf79cf3d7227a1764249df4150</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>false</mediainfo_recognized>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/246-DamerBaddahfield2010.mp3</filename>
+      <partition>1</partition>
+      <id>18</id>
+      <name_type>r</name_type>
+      <filesize>41322239</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>685</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:06:00</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:05:59</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='186428416' img_offset='186428928' len='41322239'/>
+      </byte_runs>
+      <hashdigest type='md5'>da275cb7c0b254dd852d7fa8b923ec06</hashdigest>
+      <hashdigest type='sha1'>334ba4853704dd28e640c30e3066ae86dee1414f</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>1</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_duration>5161796</mediainfo_general_duration>
+      <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/._246-DamerBaddahfield2010.mp3</filename>
+      <partition>1</partition>
+      <id>19</id>
+      <name_type>r</name_type>
+      <filesize>4096</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>689</inode>
+      <meta_type>1</meta_type>
+      <mode>365</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:06:00</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:06:01</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='227752960' img_offset='227753472' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>34e1829d4ff2f5f8f0ee481c806cacda</hashdigest>
+      <hashdigest type='sha1'>d1abd2fbdaf9485ac21e8161edbf1ae86cb86644</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>false</mediainfo_recognized>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/247-WattsDivineDeath.mp3</filename>
+      <partition>1</partition>
+      <id>20</id>
+      <name_type>r</name_type>
+      <filesize>31420780</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>692</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:06:02</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:06:01</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='227757056' img_offset='227757568' len='31420780'/>
+      </byte_runs>
+      <hashdigest type='md5'>1e6a62b75e4a3e003a224f36cf029221</hashdigest>
+      <hashdigest type='sha1'>2cfd4828f1d8f21f9a9bcddf19beef61bd838283</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>1</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_duration>3924114</mediainfo_general_duration>
+      <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/._247-WattsDivineDeath.mp3</filename>
+      <partition>1</partition>
+      <id>21</id>
+      <name_type>r</name_type>
+      <filesize>4096</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>695</inode>
+      <meta_type>1</meta_type>
+      <mode>365</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:06:02</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:06:03</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='259181568' img_offset='259182080' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>01b75f7a010980038e586479fe9e45a3</hashdigest>
+      <hashdigest type='sha1'>c2f7b100275c08ecbf47a568de2bdc339b8b0850</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>false</mediainfo_recognized>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/248-McKennaPlantMagicPt1.mp3</filename>
+      <partition>1</partition>
+      <id>22</id>
+      <name_type>r</name_type>
+      <filesize>37629607</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>699</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:06:04</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:06:03</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='259185664' img_offset='259186176' len='37629607'/>
+      </byte_runs>
+      <hashdigest type='md5'>9f4752dc68563de1d4fc4a41c602b432</hashdigest>
+      <hashdigest type='sha1'>9a7eff7641e13e1737854b671fc1919df23865dd</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>1</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_duration>4700212</mediainfo_general_duration>
+      <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/._248-McKennaPlantMagicPt1.mp3</filename>
+      <partition>1</partition>
+      <id>23</id>
+      <name_type>r</name_type>
+      <filesize>4096</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>703</inode>
+      <meta_type>1</meta_type>
+      <mode>365</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:06:04</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:06:05</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='296815616' img_offset='296816128' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>f1a6677ae2296eff4e9eebca920c0169</hashdigest>
+      <hashdigest type='sha1'>9940218799c75ffd4556f09c1e324b40b8e64ca5</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>false</mediainfo_recognized>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/249-McKennaPlantMagicPt2.mp3</filename>
+      <partition>1</partition>
+      <id>24</id>
+      <name_type>r</name_type>
+      <filesize>33493497</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>707</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:06:06</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:06:05</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='296819712' img_offset='296820224' len='33493497'/>
+      </byte_runs>
+      <hashdigest type='md5'>54a5e9d4c243df0e0ccf4a7ee8a68403</hashdigest>
+      <hashdigest type='sha1'>6ace7cce92a85af7090cb550293af51fd01df37f</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>1</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_duration>4183196</mediainfo_general_duration>
+      <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>6</inode>
+      </parent_object>
+      <filename>mp3/._249-McKennaPlantMagicPt2.mp3</filename>
+      <partition>1</partition>
+      <id>25</id>
+      <name_type>r</name_type>
+      <filesize>4096</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>711</inode>
+      <meta_type>1</meta_type>
+      <mode>365</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:06:06</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:06:06</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='330316800' img_offset='330317312' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>def095ea34692488df062300210632c7</hashdigest>
+      <hashdigest type='sha1'>d9e053d4b1024567a0e7adcbec1df5c6aa558865</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>.Trashes</filename>
+      <partition>1</partition>
+      <id>26</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>8</inode>
+      <meta_type>2</meta_type>
+      <mode>365</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:03:34</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:03:34</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='4013056' img_offset='4013568' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>0d419c6bae4ddbe11d2b357ff9b73009</hashdigest>
+      <hashdigest type='sha1'>1d9b5dbba0f7dd7ae7cbe847f784875c3a674be9</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>8</inode>
+      </parent_object>
+      <filename>.Trashes/.</filename>
+      <partition>1</partition>
+      <id>27</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>8</inode>
+      <meta_type>2</meta_type>
+      <mode>365</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:03:34</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:03:34</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='4013056' img_offset='4013568' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>0d419c6bae4ddbe11d2b357ff9b73009</hashdigest>
+      <hashdigest type='sha1'>1d9b5dbba0f7dd7ae7cbe847f784875c3a674be9</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>8</inode>
+      </parent_object>
+      <filename>.Trashes/..</filename>
+      <partition>1</partition>
+      <id>28</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2</inode>
+      <meta_type>2</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='4008960' img_offset='4009472' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>0df69c508ec6af2d0977bd7a5722cd4a</hashdigest>
+      <hashdigest type='sha1'>b97d4749c173543844fea533fac31997df95cde0</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>.fseventsd</filename>
+      <partition>1</partition>
+      <id>29</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>10</inode>
+      <meta_type>2</meta_type>
+      <mode>365</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T11:34:52</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T11:34:53</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='123038720' img_offset='123039232' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>da34c70bb5f01502a77b93170e9e3b7f</hashdigest>
+      <hashdigest type='sha1'>c482b0edd7529be6766520735a24257d51d7b737</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>10</inode>
+      </parent_object>
+      <filename>.fseventsd/.</filename>
+      <partition>1</partition>
+      <id>30</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>10</inode>
+      <meta_type>2</meta_type>
+      <mode>365</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T11:34:52</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T11:34:53</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='123038720' img_offset='123039232' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>da34c70bb5f01502a77b93170e9e3b7f</hashdigest>
+      <hashdigest type='sha1'>c482b0edd7529be6766520735a24257d51d7b737</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>10</inode>
+      </parent_object>
+      <filename>.fseventsd/..</filename>
+      <partition>1</partition>
+      <id>31</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2</inode>
+      <meta_type>2</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='4008960' img_offset='4009472' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>0df69c508ec6af2d0977bd7a5722cd4a</hashdigest>
+      <hashdigest type='sha1'>b97d4749c173543844fea533fac31997df95cde0</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>10</inode>
+      </parent_object>
+      <filename>.fseventsd/fseventsd-uuid</filename>
+      <partition>1</partition>
+      <id>32</id>
+      <name_type>r</name_type>
+      <filesize>36</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>3719687</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T12:39:14</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T11:34:53</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='296815616' img_offset='296816128' len='36'/>
+      </byte_runs>
+      <hashdigest type='md5'>d27629317bad65c7541f07ad6a42bce4</hashdigest>
+      <hashdigest type='sha1'>456e41dd62904ed604d42835d4a16780d59babd7</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>false</mediainfo_recognized>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>10</inode>
+      </parent_object>
+      <filename>.fseventsd/636573aae2ce8379</filename>
+      <partition>1</partition>
+      <id>33</id>
+      <name_type>r</name_type>
+      <filesize>97</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>3719690</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T12:39:14</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T12:39:14</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1478773760' img_offset='1478774272' len='97'/>
+      </byte_runs>
+      <hashdigest type='md5'>a82f52a90c909869ebc74ba2acaf2168</hashdigest>
+      <hashdigest type='sha1'>a62de906d3c8e551703e0f1212894d3e609bbeea</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>10</inode>
+      </parent_object>
+      <filename>.fseventsd/636573aae2ce837a</filename>
+      <partition>1</partition>
+      <id>34</id>
+      <name_type>r</name_type>
+      <filesize>76</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>3719693</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T12:39:14</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T12:39:14</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1478777856' img_offset='1478778368' len='76'/>
+      </byte_runs>
+      <hashdigest type='md5'>0288695c3d6d772abb89cbfd9f4e751a</hashdigest>
+      <hashdigest type='sha1'>c6bfa4259cddb86ffdc3facdabfb4e96c9d1896d</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>10</inode>
+      </parent_object>
+      <filename>.fseventsd/636573aae2ce2576</filename>
+      <partition>1</partition>
+      <id>35</id>
+      <name_type>r</name_type>
+      <filesize>38</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>3719696</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T11:42:12</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T11:42:11</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1478777856' img_offset='1478778368' len='38'/>
+      </byte_runs>
+      <hashdigest type='md5'>b68aee05546207097ae263d83175f11c</hashdigest>
+      <hashdigest type='sha1'>0d22fd956bdd1a21a22a2176dc37d55acf210cc3</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>10</inode>
+      </parent_object>
+      <filename>.fseventsd/636573aae2ce2577</filename>
+      <partition>1</partition>
+      <id>36</id>
+      <name_type>r</name_type>
+      <filesize>75</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>3719699</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T11:42:12</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T11:42:12</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1478781952' img_offset='1478782464' len='75'/>
+      </byte_runs>
+      <hashdigest type='md5'>3ed7565495c89699785823061c3ff958</hashdigest>
+      <hashdigest type='sha1'>127765f32f220538ab1ba4fd53544328bc4a2081</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>10</inode>
+      </parent_object>
+      <filename>.fseventsd/636573aae2ce2578</filename>
+      <partition>1</partition>
+      <id>37</id>
+      <name_type>r</name_type>
+      <filesize>38</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>3719702</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T11:42:46</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T11:42:46</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1478786048' img_offset='1478786560' len='38'/>
+      </byte_runs>
+      <hashdigest type='md5'>f883ef546bc5e3aa6935406d65e47a7c</hashdigest>
+      <hashdigest type='sha1'>4eb5e6d6edacc07ed0a873928624c143957cfd3b</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>10</inode>
+      </parent_object>
+      <filename>.fseventsd/636573aae2ce2579</filename>
+      <partition>1</partition>
+      <id>38</id>
+      <name_type>r</name_type>
+      <filesize>75</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>3719705</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T11:42:46</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T11:42:46</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1478790144' img_offset='1478790656' len='75'/>
+      </byte_runs>
+      <hashdigest type='md5'>db49b10388f2afed947161d8b496e61e</hashdigest>
+      <hashdigest type='sha1'>16ab8264ee74aaa912ab7b019da2ebe9929a1ee2</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>dv</filename>
+      <partition>1</partition>
+      <id>39</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>11</inode>
+      <meta_type>2</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:08:54</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:08:55</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='44440576' img_offset='44441088' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>0a6f8427c14bd9d0d0020f4a670f9771</hashdigest>
+      <hashdigest type='sha1'>80445d2a1042eb80891ce517c804afbb934bfe88</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>11</inode>
+      </parent_object>
+      <filename>dv/.</filename>
+      <partition>1</partition>
+      <id>40</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>11</inode>
+      <meta_type>2</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:08:54</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:08:55</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='44440576' img_offset='44441088' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>0a6f8427c14bd9d0d0020f4a670f9771</hashdigest>
+      <hashdigest type='sha1'>80445d2a1042eb80891ce517c804afbb934bfe88</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>11</inode>
+      </parent_object>
+      <filename>dv/..</filename>
+      <partition>1</partition>
+      <id>41</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2</inode>
+      <meta_type>2</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='4008960' img_offset='4009472' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>0df69c508ec6af2d0977bd7a5722cd4a</hashdigest>
+      <hashdigest type='sha1'>b97d4749c173543844fea533fac31997df95cde0</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>11</inode>
+      </parent_object>
+      <filename>dv/027.dv</filename>
+      <partition>1</partition>
+      <id>42</id>
+      <name_type>r</name_type>
+      <filesize>188111696</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>1263493</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:09:24</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:09:16</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='330316800' img_offset='330317312' len='188111696'/>
+      </byte_runs>
+      <hashdigest type='md5'>92541a864566137e2acdfd9a396fe29a</hashdigest>
+      <hashdigest type='sha1'>4b08d20ff71871a6e0d76aec855fe111098d131b</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>11</inode>
+      </parent_object>
+      <filename>dv/121.dv</filename>
+      <partition>1</partition>
+      <id>43</id>
+      <name_type>r</name_type>
+      <filesize>559080000</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>1263494</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:09:56</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:09:25</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='518429696' img_offset='518430208' len='559080000'/>
+      </byte_runs>
+      <hashdigest type='md5'>0782c19e3bfa1bb83b29d8e3b3692b84</hashdigest>
+      <hashdigest type='sha1'>dc2453b0b2308e6f4a010d2b7a96ad04dc785b14</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>1</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>2</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_duration>155455</mediainfo_general_duration>
+      <mediainfo_general_video_format>DV</mediainfo_general_video_format>
+      <mediainfo_general_audio_format>PCM / PCM</mediainfo_general_audio_format>
+      <mediainfo_general_audio_codec>PCM / PCM</mediainfo_general_audio_codec>
+      <mediainfo_general_video_codec>DV</mediainfo_general_video_codec>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>jpg</filename>
+      <partition>1</partition>
+      <id>44</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>12</inode>
+      <meta_type>2</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:10:32</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:10:32</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='72195072' img_offset='72195584' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>6274a8c19b85426bab26f1c653a9a479</hashdigest>
+      <hashdigest type='sha1'>604e1900d98e177add7d50ab92c7a515d6d5fb9f</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>12</inode>
+      </parent_object>
+      <filename>jpg/.</filename>
+      <partition>1</partition>
+      <id>45</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>12</inode>
+      <meta_type>2</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:10:32</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:10:32</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='72195072' img_offset='72195584' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>6274a8c19b85426bab26f1c653a9a479</hashdigest>
+      <hashdigest type='sha1'>604e1900d98e177add7d50ab92c7a515d6d5fb9f</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>12</inode>
+      </parent_object>
+      <filename>jpg/..</filename>
+      <partition>1</partition>
+      <id>46</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2</inode>
+      <meta_type>2</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='4008960' img_offset='4009472' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>0df69c508ec6af2d0977bd7a5722cd4a</hashdigest>
+      <hashdigest type='sha1'>b97d4749c173543844fea533fac31997df95cde0</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>12</inode>
+      </parent_object>
+      <filename>jpg/1.jpg</filename>
+      <partition>1</partition>
+      <id>47</id>
+      <name_type>r</name_type>
+      <filesize>820105</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2130821</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:11:50</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:11:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1077513216' img_offset='1077513728' len='820105'/>
+      </byte_runs>
+      <hashdigest type='md5'>4b5538fbdf7e598c6b8bcf2a6521445b</hashdigest>
+      <hashdigest type='sha1'>211b050e56c049e9e4349a23d77a6900770ac913</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>1</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>12</inode>
+      </parent_object>
+      <filename>jpg/2.jpg</filename>
+      <partition>1</partition>
+      <id>48</id>
+      <name_type>r</name_type>
+      <filesize>879834</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2130822</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:11:52</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:11:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1078336512' img_offset='1078337024' len='879834'/>
+      </byte_runs>
+      <hashdigest type='md5'>eaaeb62af36bbc276e49cee8472fe941</hashdigest>
+      <hashdigest type='sha1'>3e4be3780f41df5f4cc24d5466219bf67556af5e</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>1</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>12</inode>
+      </parent_object>
+      <filename>jpg/3.jpg</filename>
+      <partition>1</partition>
+      <id>49</id>
+      <name_type>r</name_type>
+      <filesize>845375</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2130823</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:11:52</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:11:52</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1079217152' img_offset='1079217664' len='845375'/>
+      </byte_runs>
+      <hashdigest type='md5'>d05a1fdf5d34545ed90c4c27e6f007cf</hashdigest>
+      <hashdigest type='sha1'>b11a5f20be9c60910f1f13d2a2742f069064145c</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>1</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>12</inode>
+      </parent_object>
+      <filename>jpg/4.jpg</filename>
+      <partition>1</partition>
+      <id>50</id>
+      <name_type>r</name_type>
+      <filesize>812465</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2130824</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:11:52</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:11:52</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1080065024' img_offset='1080065536' len='812465'/>
+      </byte_runs>
+      <hashdigest type='md5'>ff2471aba536ec5d0177b03c1b8846d8</hashdigest>
+      <hashdigest type='sha1'>81b6f65e803d6fba9a61e21c6f4b579b911f1b22</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>1</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>wrong_ext</filename>
+      <partition>1</partition>
+      <id>51</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>14</inode>
+      <meta_type>2</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:12:14</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:12:14</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='96562176' img_offset='96562688' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>59a951c89621e9e33facc3ac9ed8180b</hashdigest>
+      <hashdigest type='sha1'>1d8b202b2339c6572404ba76e060266f068dfc5f</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>14</inode>
+      </parent_object>
+      <filename>wrong_ext/.</filename>
+      <partition>1</partition>
+      <id>52</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>14</inode>
+      <meta_type>2</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:12:14</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:12:14</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='96562176' img_offset='96562688' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>59a951c89621e9e33facc3ac9ed8180b</hashdigest>
+      <hashdigest type='sha1'>1d8b202b2339c6572404ba76e060266f068dfc5f</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>14</inode>
+      </parent_object>
+      <filename>wrong_ext/..</filename>
+      <partition>1</partition>
+      <id>53</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2</inode>
+      <meta_type>2</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='4008960' img_offset='4009472' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>0df69c508ec6af2d0977bd7a5722cd4a</hashdigest>
+      <hashdigest type='sha1'>b97d4749c173543844fea533fac31997df95cde0</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>14</inode>
+      </parent_object>
+      <filename>wrong_ext/1.mp3</filename>
+      <partition>1</partition>
+      <id>54</id>
+      <name_type>r</name_type>
+      <filesize>820105</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2892293</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:12:42</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:12:42</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1080880128' img_offset='1080880640' len='820105'/>
+      </byte_runs>
+      <hashdigest type='md5'>4b5538fbdf7e598c6b8bcf2a6521445b</hashdigest>
+      <hashdigest type='sha1'>211b050e56c049e9e4349a23d77a6900770ac913</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>1</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>14</inode>
+      </parent_object>
+      <filename>wrong_ext/2.aif</filename>
+      <partition>1</partition>
+      <id>55</id>
+      <name_type>r</name_type>
+      <filesize>879834</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2892294</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:12:42</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:12:42</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1081703424' img_offset='1081703936' len='879834'/>
+      </byte_runs>
+      <hashdigest type='md5'>eaaeb62af36bbc276e49cee8472fe941</hashdigest>
+      <hashdigest type='sha1'>3e4be3780f41df5f4cc24d5466219bf67556af5e</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>1</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>14</inode>
+      </parent_object>
+      <filename>wrong_ext/3.mov</filename>
+      <partition>1</partition>
+      <id>56</id>
+      <name_type>r</name_type>
+      <filesize>845375</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2892295</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:12:42</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:12:42</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1082584064' img_offset='1082584576' len='845375'/>
+      </byte_runs>
+      <hashdigest type='md5'>d05a1fdf5d34545ed90c4c27e6f007cf</hashdigest>
+      <hashdigest type='sha1'>b11a5f20be9c60910f1f13d2a2742f069064145c</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>1</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>14</inode>
+      </parent_object>
+      <filename>wrong_ext/4.mp4</filename>
+      <partition>1</partition>
+      <id>57</id>
+      <name_type>r</name_type>
+      <filesize>812465</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2892296</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:12:42</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:12:42</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1083431936' img_offset='1083432448' len='812465'/>
+      </byte_runs>
+      <hashdigest type='md5'>ff2471aba536ec5d0177b03c1b8846d8</hashdigest>
+      <hashdigest type='sha1'>81b6f65e803d6fba9a61e21c6f4b579b911f1b22</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>1</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>avi</filename>
+      <partition>1</partition>
+      <id>58</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>15</inode>
+      <meta_type>2</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T11:35:28</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T11:35:28</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='186424320' img_offset='186424832' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>c68cfafd469cedab1d36b62db4a022b5</hashdigest>
+      <hashdigest type='sha1'>e91af91231e4c0bf79cf3d7227a1764249df4150</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>15</inode>
+      </parent_object>
+      <filename>avi/.</filename>
+      <partition>1</partition>
+      <id>59</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>15</inode>
+      <meta_type>2</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T11:35:28</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T11:35:28</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='186424320' img_offset='186424832' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>c68cfafd469cedab1d36b62db4a022b5</hashdigest>
+      <hashdigest type='sha1'>e91af91231e4c0bf79cf3d7227a1764249df4150</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>15</inode>
+      </parent_object>
+      <filename>avi/..</filename>
+      <partition>1</partition>
+      <id>60</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2</inode>
+      <meta_type>2</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='4008960' img_offset='4009472' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>0df69c508ec6af2d0977bd7a5722cd4a</hashdigest>
+      <hashdigest type='sha1'>b97d4749c173543844fea533fac31997df95cde0</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>15</inode>
+      </parent_object>
+      <filename>avi/M18400-0285 chat.avi</filename>
+      <partition>1</partition>
+      <id>61</id>
+      <name_type>r</name_type>
+      <filesize>29485108</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>5700487</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T11:36:48</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T11:36:48</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1084247040' img_offset='1084247552' len='29485108'/>
+      </byte_runs>
+      <hashdigest type='md5'>168bfd66b873e08396df9b3383b4c9b4</hashdigest>
+      <hashdigest type='sha1'>35f79731e31bc87cba001d60c10120c0c130ff0e</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>1</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>1</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_duration>158746</mediainfo_general_duration>
+      <mediainfo_general_video_format>Zip</mediainfo_general_video_format>
+      <mediainfo_general_audio_format>PCM</mediainfo_general_audio_format>
+      <mediainfo_general_audio_codec>PCM</mediainfo_general_audio_codec>
+      <mediainfo_general_video_codec>Zip</mediainfo_general_video_codec>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>15</inode>
+      </parent_object>
+      <filename>avi/._M18400-0285 chat.avi</filename>
+      <partition>1</partition>
+      <id>62</id>
+      <name_type>r</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>5700490</inode>
+      <meta_type>1</meta_type>
+      <mode>365</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T11:36:48</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T11:36:49</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='227752960' img_offset='227753472' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>34e1829d4ff2f5f8f0ee481c806cacda</hashdigest>
+      <hashdigest type='sha1'>d1abd2fbdaf9485ac21e8161edbf1ae86cb86644</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>false</mediainfo_recognized>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>mp4</filename>
+      <partition>1</partition>
+      <id>63</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>16</inode>
+      <meta_type>2</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T11:37:42</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T11:37:43</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='259181568' img_offset='259182080' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>01b75f7a010980038e586479fe9e45a3</hashdigest>
+      <hashdigest type='sha1'>c2f7b100275c08ecbf47a568de2bdc339b8b0850</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>16</inode>
+      </parent_object>
+      <filename>mp4/.</filename>
+      <partition>1</partition>
+      <id>64</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>16</inode>
+      <meta_type>2</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T11:37:42</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T11:37:43</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='259181568' img_offset='259182080' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>01b75f7a010980038e586479fe9e45a3</hashdigest>
+      <hashdigest type='sha1'>c2f7b100275c08ecbf47a568de2bdc339b8b0850</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>16</inode>
+      </parent_object>
+      <filename>mp4/..</filename>
+      <partition>1</partition>
+      <id>65</id>
+      <name_type>d</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2</inode>
+      <meta_type>2</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='4008960' img_offset='4009472' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>0df69c508ec6af2d0977bd7a5722cd4a</hashdigest>
+      <hashdigest type='sha1'>b97d4749c173543844fea533fac31997df95cde0</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>16</inode>
+      </parent_object>
+      <filename>mp4/leary-video2-originals-1991.mp4</filename>
+      <partition>1</partition>
+      <id>66</id>
+      <name_type>r</name_type>
+      <filesize>365039010</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>7974152</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T11:39:02</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T11:38:50</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1113734144' img_offset='1113734656' len='365039010'/>
+      </byte_runs>
+      <hashdigest type='md5'>cf32a18ad28074f89f728ad5bdb173a2</hashdigest>
+      <hashdigest type='sha1'>51ff70571d84223a53050e25e36dbb9560b1b3d3</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>1</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>1</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>1</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_duration>1787919</mediainfo_general_duration>
+      <mediainfo_general_video_format>MPEG-4 Visual</mediainfo_general_video_format>
+      <mediainfo_general_audio_format>AAC</mediainfo_general_audio_format>
+      <mediainfo_general_audio_codec>AAC LC</mediainfo_general_audio_codec>
+      <mediainfo_general_video_codec>MPEG-4 Visual</mediainfo_general_video_codec>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>leary-video2-originals-1991.mp4</filename>
+      <partition>1</partition>
+      <id>67</id>
+      <name_type>r</name_type>
+      <filesize>365039010</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>20</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T11:39:02</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T11:38:50</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='1113734144' img_offset='1113734656' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>dd0ac7a27fbc030c378e20ea0f714fa8</hashdigest>
+      <hashdigest type='sha1'>f639a842f0d1c9bbf95cbc0f3aac2da6c34519b2</hashdigest>
+<!-- plugin_process -->
+      <mediainfo_recognized>true</mediainfo_recognized>
+      <mediainfo_general_num_video_stream>0</mediainfo_general_num_video_stream>
+      <mediainfo_general_num_audio_stream>0</mediainfo_general_num_audio_stream>
+      <mediainfo_general_num_other_stream>0</mediainfo_general_num_other_stream>
+      <mediainfo_general_num_image_stream>0</mediainfo_general_num_image_stream>
+      <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
+      <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
+      <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>$MBR</filename>
+      <partition>1</partition>
+      <id>68</id>
+      <name_type>v</name_type>
+      <filesize>512</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>63875715</inode>
+      <meta_type>10</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='0' img_offset='512' len='512'/>
+      </byte_runs>
+      <hashdigest type='md5'>55eaa653bcf1de49f1a5ea25352519e8</hashdigest>
+      <hashdigest type='sha1'>26822c7c9614ca2f47a7a98c624267dfd02a4b76</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>$FAT1</filename>
+      <partition>1</partition>
+      <id>69</id>
+      <name_type>v</name_type>
+      <filesize>1996288</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>63875716</inode>
+      <meta_type>10</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='16384' img_offset='16896' len='1996288'/>
+      </byte_runs>
+      <hashdigest type='md5'>3cb0ec959b9143905de8ff744781527e</hashdigest>
+      <hashdigest type='sha1'>d8dd3199490ee1577bf31bf5f9c7f5e70ddc9f06</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>$FAT2</filename>
+      <partition>1</partition>
+      <id>70</id>
+      <name_type>v</name_type>
+      <filesize>1996288</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>63875717</inode>
+      <meta_type>10</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='2012672' img_offset='2013184' len='1996288'/>
+      </byte_runs>
+      <hashdigest type='md5'>3cb0ec959b9143905de8ff744781527e</hashdigest>
+      <hashdigest type='sha1'>d8dd3199490ee1577bf31bf5f9c7f5e70ddc9f06</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>$OrphanFiles</filename>
+      <partition>1</partition>
+      <id>71</id>
+      <name_type>d</name_type>
+      <filesize>0</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>63875718</inode>
+      <meta_type>2</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>63875718</inode>
+      </parent_object>
+      <filename>$OrphanFiles/FSEVEN~1</filename>
+      <partition>1</partition>
+      <id>72</id>
+      <name_type>-</name_type>
+      <filesize>36</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>391</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:24:14</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:03:34</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='123038720' img_offset='123039232' len='36'/>
+      </byte_runs>
+      <hashdigest type='md5'>14dbd0c90b876cbda7579f54989a53b2</hashdigest>
+      <hashdigest type='sha1'>cd012a19752d1fbe8b03ec44649a035925ca951a</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>63875718</inode>
+      </parent_object>
+      <filename>$OrphanFiles/_36573~1</filename>
+      <partition>1</partition>
+      <id>73</id>
+      <name_type>-</name_type>
+      <filesize>49</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>394</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:24:14</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:24:15</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='157973504' img_offset='157974016' len='49'/>
+      </byte_runs>
+      <hashdigest type='md5'>40f11ec65fd2b892df83da984b415589</hashdigest>
+      <hashdigest type='sha1'>5a137272608fa92ac6b19a121adedfea77f61b54</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>63875718</inode>
+      </parent_object>
+      <filename>$OrphanFiles/_36573~2</filename>
+      <partition>1</partition>
+      <id>74</id>
+      <name_type>-</name_type>
+      <filesize>76</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>397</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:24:14</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:24:15</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='186424320' img_offset='186424832' len='76'/>
+      </byte_runs>
+      <hashdigest type='md5'>7556098bcdd1769048f67ebed0d2f8bf</hashdigest>
+      <hashdigest type='sha1'>24ce034095df2bc7ed2089cf19a095fea6e17d5b</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>63875718</inode>
+      </parent_object>
+      <filename>$OrphanFiles/_36573~3</filename>
+      <partition>1</partition>
+      <id>75</id>
+      <name_type>-</name_type>
+      <filesize>38</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>400</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:14:02</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:14:03</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='186424320' img_offset='186424832' len='38'/>
+      </byte_runs>
+      <hashdigest type='md5'>6a163d3bfc6578040e996927ba15aec1</hashdigest>
+      <hashdigest type='sha1'>ca26d43e13c0029e59503c12818a55173345b8c3</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>63875718</inode>
+      </parent_object>
+      <filename>$OrphanFiles/_36573~4</filename>
+      <partition>1</partition>
+      <id>76</id>
+      <name_type>-</name_type>
+      <filesize>76</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>403</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:14:02</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:14:03</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='227752960' img_offset='227753472' len='76'/>
+      </byte_runs>
+      <hashdigest type='md5'>e2373f4669b0aedcbd2154e4d0d3fa63</hashdigest>
+      <hashdigest type='sha1'>40770973a68433830845482af63c0a969f72ea5d</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>63875718</inode>
+      </parent_object>
+      <filename>$OrphanFiles/_36573~5</filename>
+      <partition>1</partition>
+      <id>77</id>
+      <name_type>-</name_type>
+      <filesize>38</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>406</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:14:20</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:14:21</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='259181568' img_offset='259182080' len='38'/>
+      </byte_runs>
+      <hashdigest type='md5'>aa85b2260e0b62e2739756571f40c2e5</hashdigest>
+      <hashdigest type='sha1'>e0990e24f7e198681d45d70b615430886c1f226c</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>63875718</inode>
+      </parent_object>
+      <filename>$OrphanFiles/_3657~26</filename>
+      <partition>1</partition>
+      <id>78</id>
+      <name_type>-</name_type>
+      <filesize>75</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>409</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2013-11-06T05:14:20</mtime>
+      <atime prec="86400">2013-11-06T05:00:00</atime>
+      <crtime prec="2">2013-11-06T05:14:21</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='296815616' img_offset='296816128' len='75'/>
+      </byte_runs>
+      <hashdigest type='md5'>c5efbf029d03f906c458e65ee453f39d</hashdigest>
+      <hashdigest type='sha1'>32a5b57a753e3e12d9734d3311e15ff2ca120c2d</hashdigest>
+    </fileobject>
+  </volume>
+<!-- end of volume -->
+<!-- clock: 44 -->
+</dfxml>
