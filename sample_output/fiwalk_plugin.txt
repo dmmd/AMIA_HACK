@@ -1,0 +1,35 @@
+parent_inode: 6
+filename: mp3/242-McKennaGadfly03.mp3
+partition: 1
+id: 10
+name_type: r
+filesize: 24359174
+alloc: 1
+used: 1
+inode: 659
+meta_type: 1
+mode: 511
+nlink: 1
+uid: 0
+gid: 0
+mtime: 1383714354
+mtime_txt: 2013-11-06T05:05:54
+atime: 1383714000
+atime_txt: 2013-11-06T05:00:00
+crtime: 1383714352
+crtime_txt: 2013-11-06T05:05:52
+md5: 05963d81b2571c6ddfd88c6bf80a3ec5
+sha1: 5e826ef78bde8accdbf096e7f4098e7cf3e8f9cb
+# plugin_process
+mediainfo_recognized: true
+mediainfo_general_num_video_stream: 0
+mediainfo_general_num_audio_stream: 1
+mediainfo_general_num_other_stream: 0
+mediainfo_general_num_image_stream: 0
+mediainfo_general_num_text_stream: 0
+mediainfo_general_num_attachment_stream: 0
+mediainfo_general_num_chapter_stream: 0
+mediainfo_general_audio_codec: MPEG-2 Audio layer 3
+mediainfo_general_bytesize: 24359174
+mediainfo_general_duration: 3041410
+mediainfo_general_audio_format: MPEG Audio
