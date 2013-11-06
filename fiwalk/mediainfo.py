@@ -18,15 +18,15 @@ def is_recognized(xml):
 def main(data):
     print 'mediainfo_filename: {}'.format(data)
 
-    xml = subprocess.check_output(['mediainfo', '-f', '--Output=XML', data])
-    print 'mediainfo_xml: {}'.format(xml.replace('\n', ''))
-    xml = etree.fromstring(xml)
+    original_xml = subprocess.check_output(['mediainfo', '-f', '--Output=XML', data])
+    xml = etree.fromstring(original_xml)
 
     if not is_recognized(xml):
         print 'mediainfo_recognized: false'
         return
 
     print 'mediainfo_recognized: true'
+    print 'mediainfo_xml: {}'.format(original_xml.replace('\n', ''))
     tracks = xml.findall('.//track')
     audio_tracks = filter(lambda t: t.get('type') == 'Audio', tracks)
     print 'tracks_audio: {}'.format(len(audio_tracks))
