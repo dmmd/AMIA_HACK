@@ -16,8 +16,6 @@ def is_recognized(xml):
         return False
 
 def main(data):
-    print 'mediainfo_filename: {}'.format(data)
-
     original_xml = subprocess.check_output(['mediainfo', '-f', '--Output=XML', data])
     xml = etree.fromstring(original_xml)
 
