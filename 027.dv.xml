@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mediainfo version="0.7.64">
+<File>
+<track type="General">
+<Count>284</Count>
+<Count_of_stream_of_this_kind>1</Count_of_stream_of_this_kind>
+<Kind_of_stream>General</Kind_of_stream>
+<Kind_of_stream>General</Kind_of_stream>
+<Stream_identifier>0</Stream_identifier>
+<Complete_name>027.dv</Complete_name>
+<File_name>027</File_name>
+<File_extension>dv</File_extension>
+<Format>QuickTime</Format>
+<Format>QuickTime</Format>
+<Format_Info>Original Apple specifications</Format_Info>
+<Format_Url>http://www.apple.com/quicktime/download/standalone.html</Format_Url>
+<Format_Extensions_usually_used>mov qt</Format_Extensions_usually_used>
+<Commercial_name>QuickTime</Commercial_name>
+<Internet_media_type>video/quicktime</Internet_media_type>
+<Codec>QuickTime</Codec>
+<Codec>QuickTime</Codec>
+<Codec_Info>Original Apple specifications</Codec_Info>
+<Codec_Url>http://www.apple.com/quicktime/download/standalone.html</Codec_Url>
+<Codec_Extensions_usually_used>mov qt</Codec_Extensions_usually_used>
+<File_size>188111696</File_size>
+<File_size>179 MiB</File_size>
+<File_size>179 MiB</File_size>
+<File_size>179 MiB</File_size>
+<File_size>179 MiB</File_size>
+<File_size>179.4 MiB</File_size>
+<Stream_size>188111696</Stream_size>
+<Stream_size>179 MiB (100%)</Stream_size>
+<Stream_size>179 MiB</Stream_size>
+<Stream_size>179 MiB</Stream_size>
+<Stream_size>179 MiB</Stream_size>
+<Stream_size>179.4 MiB</Stream_size>
+<Stream_size>179 MiB (100%)</Stream_size>
+<Proportion_of_this_stream>1.00000</Proportion_of_this_stream>
+<HeaderSize>0</HeaderSize>
+<DataSize>188111696</DataSize>
+<FooterSize>0</FooterSize>
+<IsStreamable>No</IsStreamable>
+<File_last_modification_date>UTC 2013-09-12 19:39:26</File_last_modification_date>
+<File_last_modification_date__local_>2013-09-12 15:39:26</File_last_modification_date__local_>
+</track>
+
+</File>
+</Mediainfo>
+
