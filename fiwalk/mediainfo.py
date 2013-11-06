@@ -15,6 +15,10 @@ def is_recognized(xml):
     else:
         return False
 
+def enumerate_tracks(stream_type, tracks):
+    results = filter(lambda t: t.get('type') == stream_type.capitalize(), tracks)
+    return 'mediainfo_general_num_{}_stream: {}'.format(stream_type, len(results))
+
 def main(data):
     original_xml = subprocess.check_output(['mediainfo', '-f', '--Output=XML', data])
     xml = etree.fromstring(original_xml)
@@ -27,14 +31,11 @@ def main(data):
     print 'mediainfo_xml: {}'.format(original_xml.replace('\n', ''))
     tracks = xml.findall('.//track')
 
-    audio_tracks = filter(lambda t: t.get('type') == 'Audio', tracks)
-    print 'mediainfo_tracks_audio: {}'.format(len(audio_tracks))
+    stream_types = ['video', 'audio', 'other', 'image',
+        'text', 'attachment', 'chapter']
 
-    video_tracks = filter(lambda t: t.get('type') == 'Video', tracks)
-    print 'mediainfo_tracks_video: {}'.format(len(video_tracks))
-
-    image_tracks = filter(lambda t: t.get('type') == 'Video', tracks)
-    print 'mediainfo_tracks_image: {}'.format(len(image_tracks))
+    for stream_type in stream_types:
+        print enumerate_tracks(stream_type, tracks)
 
 if __name__ == '__main__':
     data = sys.argv[1]
