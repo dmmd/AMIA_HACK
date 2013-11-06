@@ -62,7 +62,7 @@ def main(data):
         return
 
     print 'mediainfo_recognized: true'
-    print 'mediainfo_xml: {}'.format(original_xml.replace('\n', ''))
+)
     tracks = xml.findall('.//track')
 
     stream_types = ['video', 'audio', 'other', 'image',
