@@ -1,0 +1,9 @@
+{
+	"General": {
+		"Duration": "mediainfo_general_duration",
+		"Video_Format_List": "mediainfo_general_video_format",
+		"Audio_Format_List": "mediainfo_general_audio_format",
+		"Audio_codecs": "mediainfo_general_audio_codec",
+		"Codecs_Video": "mediainfo_general_video_codec"
+	}
+}
