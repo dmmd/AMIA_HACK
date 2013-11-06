@@ -28,8 +28,15 @@ def main(data):
     print 'mediainfo_recognized: true'
     print 'mediainfo_xml: {}'.format(original_xml.replace('\n', ''))
     tracks = xml.findall('.//track')
+
     audio_tracks = filter(lambda t: t.get('type') == 'Audio', tracks)
-    print 'tracks_audio: {}'.format(len(audio_tracks))
+    print 'mediainfo_tracks_audio: {}'.format(len(audio_tracks))
+
+    video_tracks = filter(lambda t: t.get('type') == 'Video', tracks)
+    print 'mediainfo_tracks_video: {}'.format(len(video_tracks))
+
+    image_tracks = filter(lambda t: t.get('type') == 'Video', tracks)
+    print 'mediainfo_tracks_image: {}'.format(len(image_tracks))
 
 if __name__ == '__main__':
     data = sys.argv[1]
