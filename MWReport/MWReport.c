@@ -7,12 +7,11 @@ void checkArgs(int argc, char *argv[]);
 
 int main(int argc, char *argv[]){
 	checkArgs(argc, argv);
-	printf("media walk report\n-----------------\n");
 }
 
 void checkArgs(int argc, char *argv[]){
 	if(argc != 2){
-		printf("print the usage warning\n");
+		printf("print the usage warning");
 		exit(EXIT_FAILURE);
 	}
 
