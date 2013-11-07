@@ -4,10 +4,17 @@
 #include <libxml/parser.h>
 
 void checkArgs(int argc, char *argv[]);
+static void parse(const char *filename);
 
 int main(int argc, char *argv[]){
 	checkArgs(argc, argv);
+	LIBXML_TEST_VERSION
 	printf("media walk report\n-----------------\n");
+	const char *filename = argv[1];
+	parse(filename);
+	xmlCleanupParser();
+	xmlMemoryDump();
+	return(0);
 }
 
 void checkArgs(int argc, char *argv[]){
@@ -26,4 +33,13 @@ void checkArgs(int argc, char *argv[]){
 	else{
 		fclose ( istream );
 	}
+}
+
+static void parse(const char *filename) {
+    xmlDocPtr doc;
+    doc = xmlReadFile(filename, NULL, 0);
+    if(doc == NULL){
+    	fprintf(stderr, "FAILED TO PARSE %s\n", filename);c
+    }
+    xmlFreeDoc(doc);
 }
