@@ -1,7 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <assert.h>
+
 #include <libxml/tree.h>
 #include <libxml/parser.h>
+#include <libxml/xpathInternals.h>
+
+#if defined(LIBXML_XPATH_ENABLED)
 
 void checkArgs(int argc, char *argv[]);
 static void parse(const char *filename);
@@ -39,7 +45,9 @@ static void parse(const char *filename) {
     xmlDocPtr doc;
     doc = xmlReadFile(filename, NULL, 0);
     if(doc == NULL){
-    	fprintf(stderr, "FAILED TO PARSE %s\n", filename);c
+    	fprintf(stderr, "FAILED TO PARSE %s\n", filename);
     }
     xmlFreeDoc(doc);
 }
+
+#endif
