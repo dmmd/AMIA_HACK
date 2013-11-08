@@ -108,14 +108,15 @@ end
 
 ##run the report
 output = File.new("mediawalker.html", "w+")
-output.write("<html><head><title>media walker report</title></head><link href=\"bootstrap.min.css\" rel=\"stylesheet\"><body><div class='container'>")
+output.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">")
+output.write("<html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-type\" content=\"text/html;charset=UTF-8\"/><title>media walker report</title><link href=\"bootstrap.min.css\" rel=\"stylesheet\"/></head><body><div class='container'>")
 output.write("<h1>media walker report</h1>")
-output.write("<h3>Video Files</h2>")
+output.write("<h3>Video Files</h3>")
 output.write("<h4>number of files: " + videofiles.size.to_s + "</h4>")
 output.write("<h4>duration of files: " + format_milisecs(total_vid_duration) + "</h4>")
 output.write("<h4>bytesize of files: " + format_size(total_vid_size) + "</h4>")
-output.write("<h3>inventory</h2>")
-output.write("<table class=\"table table-bordered\"><thead><tr><th>file</th><th>size</th><th>duration</th><th>format</th><th>codec</th></tr><tbody>")
+output.write("<h3>inventory</h3>")
+output.write("<table class=\"table table-bordered\"><thead><tr><th>file</th><th>size</th><th>duration</th><th>format</th><th>codec</th></tr></thead><tbody>")
 videofiles.each do |video|
 	output.write("<tr>")
 		output.write("<td>" + video.filename + "</td>")
@@ -129,12 +130,12 @@ output.write("</tbody></table>")
 
 output.write("<br /><br />")
 
-output.write("<h3>Audio Files</h2>")
+output.write("<h3>Audio Files</h3>")
 output.write("<h4>number of files: " + videofiles.size.to_s + "</h4>")
 output.write("<h4>duration of files: " + format_milisecs(total_aud_duration) + "</h4>")
 output.write("<h4>bytesize of files: " + format_size(total_aud_size) + "</h4>")
-output.write("<h3>inventory</h2>")
-output.write("<table class=\"table table-bordered\"><thead><tr><th>file</th><th>size</th><th>duration</th><th>format</th><th>codec</th></tr><tbody>")
+output.write("<h3>inventory</h3>")
+output.write("<table class=\"table table-bordered\"><thead><tr><th>file</th><th>size</th><th>duration</th><th>format</th><th>codec</th></tr></thead><tbody>")
 audiofiles.each do |audio|
 	output.write("<tr>")
 		output.write("<td>" + audio.filename + "</td>")
@@ -144,5 +145,7 @@ audiofiles.each do |audio|
 		output.write("<td>" + audio.codec + "</td>")
 	output.write("</tr>")
 end
+output.write("</tbody></table>")
 
-output.write("</div><script src=\"bootstrap.min.js\"></script></body></html>")
+output.write("</div><script type=\"text/javascript\" src=\"bootstrap.min.js\"></script></body></html>")
+output.close()
