@@ -54,7 +54,21 @@ def format_milisecs(m)
   mins, secs = secs.divmod(60)
   hours, mins = mins.divmod(60)
 
-  [secs,mins,hours].map { |e| e.to_s.rjust(2,'0') }.join ':'
+  [hours,mins,secs].map { |e| e.to_s.rjust(2,'0') }.join ':'
+end
+
+def format_size(s)
+	if(s < 1024)
+		s.to_s + " Bytes"
+	elsif(s > 1024 && s <= 1024 ** 2)
+		(s / (1024.0)).round(2).to_s + " Kilobytes"
+	elsif(s > 1024 ** 2 && s <= 1024 ** 3)
+		(s / (1024.0 ** 2)).round(2).to_s + " Megabytes"
+	elsif(s > 1024 ** 3 &&  s <= 1024 ** 4)
+		(s / (1024.0 ** 3)).round(2).to_s " Gigabytes"
+	else
+		"FAILURE"
+	end
 end
 
 
@@ -82,8 +96,8 @@ while reader.read
 				total_vid_size += fo.filesize.to_i
 				total_vid_duration += fo.mediainfo_general_duration.to_i
 			elsif fo.mediainfo_general_num_audio_stream != "0"
-				audio_object = MediaObject.new(fo.filename, fo.filesize, fo.mediainfo_general_audio_format, 
-					fo.mediainfo_general_audio_codec, fo.mediainfo_general_duration, type = "AUDIO")
+				audio_object = MediaObject.new(fo.filename, fo.filesize.to_i, fo.mediainfo_general_audio_format, 
+					fo.mediainfo_general_audio_codec, fo.mediainfo_general_duration.to_i, type = "AUDIO")
 				audiofiles << audio_object
 				total_aud_size += fo.filesize.to_i
 				total_aud_duration += fo.mediainfo_general_duration.to_i
@@ -99,13 +113,13 @@ output.write("<h1>media walker report</h1>")
 output.write("<h3>Video Files</h2>")
 output.write("<h4>number of files: " + videofiles.size.to_s + "</h4>")
 output.write("<h4>duration of files: " + format_milisecs(total_vid_duration) + "</h4>")
-output.write("<h4>bytesize of files: " + total_vid_size.to_s + "</h4>")
+output.write("<h4>bytesize of files: " + format_size(total_vid_size) + "</h4>")
 output.write("<h3>inventory</h2>")
 output.write("<table class=\"table table-bordered\"><thead><tr><th>file</th><th>size</th><th>duration</th><th>format</th><th>codec</th></tr><tbody>")
 videofiles.each do |video|
 	output.write("<tr>")
 		output.write("<td>" + video.filename + "</td>")
-		output.write("<td>" + video.filesize.to_s  + "</td>")
+		output.write("<td>" + format_size(video.filesize) + "</td>")
 		output.write("<td>" + format_milisecs(video.duration.to_i) + "</td>")
 		output.write("<td>" + video.format + "</td>")
 		output.write("<td>" + video.codec + "</td>")
@@ -118,13 +132,13 @@ output.write("<br /><br />")
 output.write("<h3>Audio Files</h2>")
 output.write("<h4>number of files: " + videofiles.size.to_s + "</h4>")
 output.write("<h4>duration of files: " + format_milisecs(total_aud_duration) + "</h4>")
-output.write("<h4>bytesize of files: " + total_aud_size.to_s + "</h4>")
+output.write("<h4>bytesize of files: " + format_size(total_aud_size) + "</h4>")
 output.write("<h3>inventory</h2>")
 output.write("<table class=\"table table-bordered\"><thead><tr><th>file</th><th>size</th><th>duration</th><th>format</th><th>codec</th></tr><tbody>")
 audiofiles.each do |audio|
 	output.write("<tr>")
 		output.write("<td>" + audio.filename + "</td>")
-		output.write("<td>" + audio.filesize.to_s  + "</td>")
+		output.write("<td>" + format_size(audio.filesize)  + "</td>")
 		output.write("<td>" + format_milisecs(audio.duration.to_i) + "</td>")
 		output.write("<td>" + audio.format + "</td>")
 		output.write("<td>" + audio.codec + "</td>")
@@ -132,24 +146,3 @@ audiofiles.each do |audio|
 end
 
 output.write("</div><script src=\"bootstrap.min.js\"></script></body></html>")
-
-=begin
-
-
-puts "VIDEO FILES"
-puts "number of files: " + videofiles.size.to_s
-puts "duration of files: " + format_milisecs(total_vid_duration)
-puts "bytesize of files: " + total_vid_size.to_s
-videofiles.each do |video|
-	puts "\t" + video.filename + "\t" + video.filesize.to_s + "\t" + format_milisecs(video.duration.to_i) + "\t" + video.format +  "\t" + video.codec
-end
-
-puts "\nAUDIO FILES"
-puts "number of files: " + audiofiles.size.to_s
-puts "duration of files: " + format_milisecs(total_aud_duration)
-puts "bytesize of files: " + total_aud_size.to_s
-audiofiles.each do |audio|
-	puts "\t" + audio.filename
-end
-
-=end
