@@ -15,14 +15,14 @@
       <library name="libewf" version="20130416"/>
     </build_environment>
     <execution_environment>
-      <command_line>fiwalk -xc ficonfig2.txt /Users/dm/Desktop/amia/amia.E01</command_line>
-      <start_time>2013-11-06T21:31:08Z</start_time>
+      <command_line>fiwalk -xc ficonfig.txt /Users/dm/Desktop/amia/amia.001</command_line>
+      <start_time>2013-11-08T00:27:53Z</start_time>
     </execution_environment>
   </creator>
-<!-- Reading configuration file ficonfig2.txt -->
+<!-- Reading configuration file ficonfig.txt -->
 <!-- pattern: *  method: dgi  path: python mediainfo.py -->
   <source>
-    <image_filename>/Users/dm/Desktop/amia/amia.E01</image_filename>
+    <image_filename>/Users/dm/Desktop/amia/amia.001</image_filename>
   </source>
 <!-- fs start: 512 -->
   <volume offset='512'>
@@ -190,9 +190,10 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>MPEG Audio</mediainfo_general_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
       <mediainfo_general_duration>5047379</mediainfo_general_duration>
       <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
-      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -256,9 +257,10 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>MPEG Audio</mediainfo_general_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
       <mediainfo_general_duration>3465142</mediainfo_general_duration>
       <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
-      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -322,9 +324,10 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>MPEG Audio</mediainfo_general_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
       <mediainfo_general_duration>3041410</mediainfo_general_duration>
       <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
-      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -388,9 +391,10 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>MPEG Audio</mediainfo_general_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
       <mediainfo_general_duration>3305351</mediainfo_general_duration>
       <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
-      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -454,9 +458,10 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>MPEG Audio</mediainfo_general_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
       <mediainfo_general_duration>4365948</mediainfo_general_duration>
       <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
-      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -520,9 +525,10 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>MPEG Audio</mediainfo_general_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
       <mediainfo_general_duration>3553017</mediainfo_general_duration>
       <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
-      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -586,9 +592,10 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>MPEG Audio</mediainfo_general_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
       <mediainfo_general_duration>5161796</mediainfo_general_duration>
       <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
-      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -652,9 +659,10 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>MPEG Audio</mediainfo_general_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
       <mediainfo_general_duration>3924114</mediainfo_general_duration>
       <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
-      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -718,9 +726,10 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>MPEG Audio</mediainfo_general_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
       <mediainfo_general_duration>4700212</mediainfo_general_duration>
       <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
-      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -784,9 +793,10 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>MPEG Audio</mediainfo_general_format>
+      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
       <mediainfo_general_duration>4183196</mediainfo_general_duration>
       <mediainfo_general_audio_format>MPEG Audio</mediainfo_general_audio_format>
-      <mediainfo_general_audio_codec>MPEG-2 Audio layer 3</mediainfo_general_audio_codec>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -822,6 +832,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>QuickTime</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1035,6 +1046,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>GZip</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1070,6 +1082,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>GZip</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1105,6 +1118,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>GZip</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1140,6 +1154,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>GZip</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1175,6 +1190,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>GZip</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1210,6 +1226,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>GZip</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1320,6 +1337,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>QuickTime</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1355,11 +1373,12 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
-      <mediainfo_general_duration>155455</mediainfo_general_duration>
       <mediainfo_general_video_format>DV</mediainfo_general_video_format>
-      <mediainfo_general_audio_format>PCM / PCM</mediainfo_general_audio_format>
+      <mediainfo_general_format>DV</mediainfo_general_format>
       <mediainfo_general_audio_codec>PCM / PCM</mediainfo_general_audio_codec>
       <mediainfo_general_video_codec>DV</mediainfo_general_video_codec>
+      <mediainfo_general_duration>155455</mediainfo_general_duration>
+      <mediainfo_general_audio_format>PCM / PCM</mediainfo_general_audio_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1470,6 +1489,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>JPEG</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1505,6 +1525,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>JPEG</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1540,6 +1561,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>JPEG</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1575,6 +1597,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>JPEG</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1685,6 +1708,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>JPEG</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1720,6 +1744,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>JPEG</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1755,6 +1780,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>JPEG</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1790,6 +1816,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>JPEG</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -1900,11 +1927,12 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
-      <mediainfo_general_duration>158746</mediainfo_general_duration>
       <mediainfo_general_video_format>Zip</mediainfo_general_video_format>
-      <mediainfo_general_audio_format>PCM</mediainfo_general_audio_format>
+      <mediainfo_general_format>AVI</mediainfo_general_format>
       <mediainfo_general_audio_codec>PCM</mediainfo_general_audio_codec>
       <mediainfo_general_video_codec>Zip</mediainfo_general_video_codec>
+      <mediainfo_general_duration>158746</mediainfo_general_duration>
+      <mediainfo_general_audio_format>PCM</mediainfo_general_audio_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -2043,11 +2071,12 @@
       <mediainfo_general_num_text_stream>1</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
-      <mediainfo_general_duration>1787919</mediainfo_general_duration>
       <mediainfo_general_video_format>MPEG-4 Visual</mediainfo_general_video_format>
-      <mediainfo_general_audio_format>AAC</mediainfo_general_audio_format>
+      <mediainfo_general_format>MPEG-4</mediainfo_general_format>
       <mediainfo_general_audio_codec>AAC LC</mediainfo_general_audio_codec>
       <mediainfo_general_video_codec>MPEG-4 Visual</mediainfo_general_video_codec>
+      <mediainfo_general_duration>1787919</mediainfo_general_duration>
+      <mediainfo_general_audio_format>AAC</mediainfo_general_audio_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -2083,6 +2112,7 @@
       <mediainfo_general_num_text_stream>0</mediainfo_general_num_text_stream>
       <mediainfo_general_num_attachment_stream>0</mediainfo_general_num_attachment_stream>
       <mediainfo_general_num_chapter_stream>0</mediainfo_general_num_chapter_stream>
+      <mediainfo_general_format>MPEG-4</mediainfo_general_format>
     </fileobject>
     <fileobject>
       <parent_object>
@@ -2355,5 +2385,5 @@
     </fileobject>
   </volume>
 <!-- end of volume -->
-<!-- clock: 44 -->
+<!-- clock: 70 -->
 </dfxml>
