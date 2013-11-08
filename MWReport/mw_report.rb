@@ -19,7 +19,7 @@ while reader.read
 	if reader.node_type == Nokogiri::XML::Reader::TYPE_ELEMENT and reader.name == 'fileobject'
 		fo = Dfxmlmi::Parser::FileObject.parse(reader.outer_xml)
 		if fo.mediainfo_recognized == "true"
-			puts fo.filename.to_s + "\t" + ""
+			puts fo.filename.to_s + "\t" + fo.mediainfo_format.to_s
 		end
 	end
 end
