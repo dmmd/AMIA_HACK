@@ -131,7 +131,7 @@ output.write("</tbody></table>")
 output.write("<br /><br />")
 
 output.write("<h3>Audio Files</h3>")
-output.write("<h4>number of files: " + videofiles.size.to_s + "</h4>")
+output.write("<h4>number of files: " + audiofiles.size.to_s + "</h4>")
 output.write("<h4>duration of files: " + format_milisecs(total_aud_duration) + "</h4>")
 output.write("<h4>bytesize of files: " + format_size(total_aud_size) + "</h4>")
 output.write("<h3>inventory</h3>")
