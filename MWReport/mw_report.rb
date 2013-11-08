@@ -2,18 +2,16 @@ require "nokogiri"
 require 'sax-machine'
 
 ##simplify parsing
-module Dfxmlmi
-	module Parser
-		class FileObject
-      		include SAXMachine
-      		element :filename
-      		element :mediainfo_recognized
-      		element :mediainfo_general_format
-      		element :mediainfo_general_num_video_stream
-      		element :mediainfo_general_num_audio_stream
-      	end
-	end
-end	
+
+class FileObject
+	include SAXMachine
+	element :filename
+	element :mediainfo_recognized
+	element :mediainfo_general_format
+	element :mediainfo_general_num_video_stream
+	element :mediainfo_general_num_audio_stream
+end
+
 
 
 ##parse dfxml
@@ -25,7 +23,7 @@ videofiles = Array.new
 
 while reader.read
 	if reader.node_type == Nokogiri::XML::Reader::TYPE_ELEMENT and reader.name == 'fileobject'
-		fo = Dfxmlmi::Parser::FileObject.parse(reader.outer_xml)
+		fo = FileObject.parse(reader.outer_xml)
 		if fo.mediainfo_recognized == "true"
 			if fo.mediainfo_general_num_video_stream != "0"
 				videofiles << (fo.filename.to_s + "\t" + fo.mediainfo_general_format.to_s)
