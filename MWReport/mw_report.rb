@@ -1,6 +1,7 @@
 require "nokogiri"
 require 'sax-machine'
 
+##simplify parsing
 module Dfxmlmi
 	module Parser
 		class FileObject
@@ -15,18 +16,37 @@ module Dfxmlmi
 end	
 
 
+##parse dfxml
 f = File.open("amia.xml")
 reader = Nokogiri::XML::Reader(f)
+
+audiofiles = Array.new
+videofiles = Array.new
 
 while reader.read
 	if reader.node_type == Nokogiri::XML::Reader::TYPE_ELEMENT and reader.name == 'fileobject'
 		fo = Dfxmlmi::Parser::FileObject.parse(reader.outer_xml)
 		if fo.mediainfo_recognized == "true"
 			if fo.mediainfo_general_num_video_stream != "0"
-				puts "VIDEO: " + fo.filename.to_s + "\t" + fo.mediainfo_general_format.to_s
+				videofiles << (fo.filename.to_s + "\t" + fo.mediainfo_general_format.to_s)
 			elsif fo.mediainfo_general_num_audio_stream != "0"
-				puts "AUDIO: " + fo.filename.to_s + "\t" + fo.mediainfo_general_format.to_s	
+				audiofiles << (fo.filename.to_s + "\t" + fo.mediainfo_general_format.to_s)	
 			end
 		end
 	end
+end
+
+##run the report
+
+puts "media walker"
+puts "------------\n\n"
+
+puts "number of video files: " + videofiles.size.to_s
+videofiles.sort.each do |video|
+	puts "\t" + video
+end
+
+puts "\nnumber of audio files: " + audiofiles.size.to_s
+audiofiles.sort.each do |audio|
+	puts "\t" + audio
 end
