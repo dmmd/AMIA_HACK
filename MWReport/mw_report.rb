@@ -37,8 +37,19 @@ class MediaObject
   	end
 end
 
+def format_milisecs(m)
+  secs, milisecs = m.divmod(1000) # divmod returns modulo
+  mins, secs = secs.divmod(60)
+  hours, mins = mins.divmod(60)
+
+  [secs,mins,hours].map { |e| e.to_s.rjust(2,'0') }.join ':'
+end
+
+
 ##parse dfxml
-f = File.open("amia.xml")
+filename = ARGV[0]
+#add some usage or filechecking here
+f = File.open(filename)
 reader = Nokogiri::XML::Reader(f)
 
 audiofiles = Array.new
@@ -73,16 +84,18 @@ end
 puts "media walker"
 puts "------------\n\n"
 
-puts "number of video files: " + videofiles.size.to_s
-puts "total duration of video files: " + total_vid_duration.to_s
-puts "total bytesize of video files: " + total_vid_size.to_s
+puts "VIDEO FILES"
+puts "number of files: " + videofiles.size.to_s
+puts "duration of files: " + format_milisecs(total_vid_duration)
+puts "bytesize of files: " + total_vid_size.to_s
 videofiles.each do |video|
 	puts "\t" + video.to_s
 end
 
-puts "\nnumber of audio files: " + audiofiles.size.to_s
-puts "total duration of audio files: " + total_aud_duration.to_s
-puts "total bytesize of audio files: " + total_aud_size.to_s
+puts "\nAUDIO FILES"
+puts "number of files: " + audiofiles.size.to_s
+puts "duration of files: " + format_milisecs(total_aud_duration)
+puts "bytesize of files: " + total_aud_size.to_s
 audiofiles.each do |audio|
 	puts "\t" + audio.to_s
 end
